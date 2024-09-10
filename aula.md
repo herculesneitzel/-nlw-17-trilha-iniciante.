@@ -1,11 +1,11 @@
 ## Linguagem de Programação
 Maneira de dar instrução ao computador
-Como um lego, você irá utilizar pe;cas para ceriar algoritmos, ou seja, para resolver problemas.
+Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para resolver problemas.
 
 **Algoritmo**: Sequência de passos lógica e finita para resolução de um problema
 
 ## Peças de uma linguagem
-- Comentários
+- Comentários [x]
 - Declaração de variáveis ( const, let)
 - Operadores (Atribuição, Concatenação, Matemáticos, Lógicos)
 - Tipos de dados (String, Number, Boolean)
@@ -17,3 +17,15 @@ Como um lego, você irá utilizar pe;cas para ceriar algoritmos, ou seja, para r
 - Coletar os dados
 - Processar os dados (manipular, alterar ...)
 - Apresentar os dados
+
+## Escopo e variáveis
+Variáveis Globais e locais
+Constantes
+
+## Tipos de dados: 
+String (Textos): "" '' ``
+Numbers (Números): 2 2.3
+Function
+
+## Operadores 
+Operadores de atribuição de valor

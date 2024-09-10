@@ -6,12 +6,12 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 
 ## Peças de uma linguagem
 - Comentários [x]
-- Declaração de variáveis ( const, let)
-- Operadores (Atribuição, Concatenação, Matemáticos, Lógicos)
-- Tipos de dados (String, Number, Boolean)
-- Estrutura de dados (Functions, Object, Array)
-- Controle de fluxo (if/else)
-- Estrutura de repetição (For, while)
+- Declaração de variáveis ( const, let) [x]
+- Operadores (Atribuição, Concatenação, Matemáticos, Lógicos) [x]
+- Tipos de dados (String, Number, Boolean) [x]
+- Estrutura de dados (Functions, Object, Array) [x]
+- Controle de fluxo (if/else) [x]
+- Estrutura de repetição (For, while) [x]
 
 ## Fases da resolução de um problema
 - Coletar os dados
@@ -19,13 +19,33 @@ Como um lego, você irá utilizar peças para criar algoritmos, ou seja, para re
 - Apresentar os dados
 
 ## Escopo e variáveis
-Variáveis Globais e locais
-Constantes
+Variáveis Globais e locais [x]
+Constantes [x]
 
 ## Tipos de dados: 
-String (Textos): "" '' ``
-Numbers (Números): 2 2.3
-Function
+String (Textos): "" '' `` [x]
+Numbers (Números): 2 2.3 [x]
+Boolean [x]
 
 ## Operadores 
-Operadores de atribuição de valor
+Operadores de atribuição de valor [x]
+Operador de concatenação [x]
+
+## Arrays
+Uma lista que contém qualquer tipo de dado [x]
+
+## Objetos
+Atributos e métodos [x]
+Criação e manipulação de objetos [x]
+Acesso a propriedades de objetos [x]
+
+## Functions
+criar, passar argumento [x]
+executar [x]
+arrow function / named function [x]
+
+
+## Hello World 
+let mensagem = 'Hello World'
+mensagem = 'Hércules'
+console.log(mensagem)

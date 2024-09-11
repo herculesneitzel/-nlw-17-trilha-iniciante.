@@ -52,3 +52,6 @@ console.log(mensagem)
 
 # Estrutura de repetição 
 - while [x]
+
+# condicional
+- switch [x]

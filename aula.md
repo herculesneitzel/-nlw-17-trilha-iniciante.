@@ -49,3 +49,6 @@ arrow function / named function [x]
 let mensagem = 'Hello World'
 mensagem = 'Hércules'
 console.log(mensagem)
+
+# Estrutura de repetição 
+- while [x]

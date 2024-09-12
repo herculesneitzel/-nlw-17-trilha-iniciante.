@@ -30,10 +30,12 @@ Boolean [x]
 ## Operadores 
 Operadores de atribuição de valor: = [x]
 Operador de concatenação: + [x]
-Operadores de comparação: == | != | < | > | <= | >=
+Operadores de comparação: == | != | < | > | <= | >= [x]
+Spread operator: ... [x]
 
 ## Arrays
 Uma lista que contém qualquer tipo de dado [x]
+Métodos de array: push, [find, forEach, filter] : HOF (HIGHER ORDER FUNCTIONS)
 
 ## Objetos
 Atributos e métodos [x]

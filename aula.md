@@ -28,8 +28,9 @@ Numbers (Números): 2 2.3 [x]
 Boolean [x]
 
 ## Operadores 
-Operadores de atribuição de valor [x]
-Operador de concatenação [x]
+Operadores de atribuição de valor: = [x]
+Operador de concatenação: + [x]
+Operadores de comparação: == | != | < | > | <= | >=
 
 ## Arrays
 Uma lista que contém qualquer tipo de dado [x]
@@ -55,6 +56,7 @@ console.log(mensagem)
 
 # condicional
 - switch [x]
+- if/else
 
 ## Módulos em node.js
 - importação de módulos (require, CommonJs) [x]

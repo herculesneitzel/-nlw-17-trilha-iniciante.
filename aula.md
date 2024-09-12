@@ -55,3 +55,10 @@ console.log(mensagem)
 
 # condicional
 - switch [x]
+
+## Módulos em node.js
+- importação de módulos (require, CommonJs) [x]
+- Biblioteca 'inquirer' para criar prompts interativos [x]
+
+## Programação assíncrona e Promises:
+- Uso de função assíncrona (async/await) [x]

@@ -57,7 +57,7 @@ const metasRealizadas = async () => {
     }
 
     await select({
-        message: "Metas realizadas " + realizadas.length,
+        message: "Metas realizadas: " + realizadas.length,
         choices: [...realizadas]
     })
 }
@@ -67,15 +67,40 @@ const metasAbertas = async () => {
         return meta.checked != true
     })
 
-    if (abertas.length == 0){
+    if (abertas.length == 0) {
         console.log("Parabéns, não existem metas abertas")
         return
     }
 
     await select({
-        message: "Metas abertas " + abertas.length,
+        message: "Metas abertas: " + abertas.length,
         choices: [...abertas]
     })
+}
+
+const deletarMetas = async ()  => {
+    const metasDesmarcadas =  metas.map((meta)=> { // devolve o mesmo array porem modificado
+        return{value: meta.value, checked: false}
+    })
+
+    const itemsAdeletar = await checkbox({
+        message: "Selecione item para deletar",
+        choices: [...metasDesmarcadas],
+        instructions: false
+    })
+
+    if(itemsAdeletar.length == 0){
+        console.log("Nenhum item a deletar")
+        return
+    }
+
+    itemsAdeletar.forEach((item)=>{
+        metas = metas.filter((meta) => {
+            return meta.value != item
+        })
+    })
+
+    console.log("Meta(s) deletada(s)")
 }
 
 const start = async /*linha a linha*/() => {
@@ -101,6 +126,10 @@ const start = async /*linha a linha*/() => {
                     value: "abertas"
                 },
                 {
+                    name: "Deletar metas",
+                    value: "deletar"
+                },
+                {
                     name: "Sair",
                     value: "sair"
                 }
@@ -120,6 +149,9 @@ const start = async /*linha a linha*/() => {
                 break
             case "abertas":
                 await metasAbertas()
+                break
+            case "deletar":
+                await deletarMetas()
                 break
             case "sair":
                 console.log("saindo")

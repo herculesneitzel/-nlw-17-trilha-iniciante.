@@ -35,7 +35,7 @@ Spread operator: ... [x]
 
 ## Arrays
 Uma lista que contém qualquer tipo de dado [x]
-Métodos de array: push, [find, forEach, filter] : HOF (HIGHER ORDER FUNCTIONS)
+Métodos de array: push, [find, forEach, filter, map] : HOF (HIGHER ORDER FUNCTIONS) [x]
 
 ## Objetos
 Atributos e métodos [x]
@@ -58,7 +58,7 @@ console.log(mensagem)
 
 # condicional
 - switch [x]
-- if/else
+- if/else [x]
 
 ## Módulos em node.js
 - importação de módulos (require, CommonJs) [x]

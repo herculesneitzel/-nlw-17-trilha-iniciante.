@@ -4,5 +4,5 @@
     -Metas abertas [x]
 -Marcar/Desmarcar metas como concluídas [x]
 -Deletar metas [x]
--Sistema de mensagem
+-Sistema de mensagem [x]
 

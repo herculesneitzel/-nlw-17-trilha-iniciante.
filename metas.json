@@ -1,0 +1,14 @@
+[
+  {
+    "value": "tomar 3L de água por dia",
+    "checked": false
+  },
+  {
+    "value": "Andar 5km ",
+    "checked": false
+  },
+  {
+    "value": "Passear com o cachorro",
+    "checked": true
+  }
+]

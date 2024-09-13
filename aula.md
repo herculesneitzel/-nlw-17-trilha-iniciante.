@@ -63,6 +63,12 @@ console.log(mensagem)
 ## Módulos em node.js
 - importação de módulos (require, CommonJs) [x]
 - Biblioteca 'inquirer' para criar prompts interativos [x]
+- FS (file system) [x]
+
+## JSON 
+Javascript Object Notation (.json)
+JSON.parse() json para js 
+JSON.stringify() js parra json
 
 ## Programação assíncrona e Promises:
 - Uso de função assíncrona (async/await) [x]
